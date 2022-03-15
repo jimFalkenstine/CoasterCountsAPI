@@ -1,7 +1,7 @@
 // Bring in the express server and create application
 let express = require('express');
-let app = express();
 let coasterRepo = require('./repos/coasterRepo')
+let app = express();
 
 // Use the express Router object
 let router = express.Router();
@@ -47,7 +47,7 @@ router.get('/:id', function (req, res, next) {
       res.status(200).json({
         "status": 200,
         "statusText": "OK",
-        "message": "Single coaster retrieved.",
+        "message": "All coasters retrieved.",
         "data": data
       });
     }
