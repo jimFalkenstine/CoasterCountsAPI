@@ -5,15 +5,19 @@ let coasterRepo = require('./repos/coasterRepo')
 
 // Use the express Router object
 let router = express.Router();
-let coasters = coasterRepo.get();
+
 
 // Create GET to return a list of all coasters
 router.get('/', function (req, res, next) {
-  res.status(200).json({
-    "status": 200,
-    "statusText": "OK",
-    "message": "All coasters retrieved.",
-    "data": coasters
+  coasterRepo.get(function (data) {
+    res.status(200).json({
+      "status": 200,
+      "statusText": "OK",
+      "message": "All coasters retrieved.",
+      "data": data
+    });
+  }, function(err) {
+    next(err);
   });
 });
 
