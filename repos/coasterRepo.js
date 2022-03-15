@@ -23,7 +23,27 @@ let coasterRepo = {
             resolve(coaster);
           }
         });
-    }
+    },
+    search: function (searchObject, resolve, reject) {
+        fs.readFile(FILE_NAME, function (err, data) {
+          if (err) {
+            reject(err);
+          }
+          else {
+            let coasters = JSON.parse(data);
+            // Perform search
+            if (searchObject) {
+              coasters = coasters.filter(
+                c => (searchObject.id ? c.id == searchObject.id : true) &&
+                  (searchObject.name ? c.name.toLowerCase().indexOf(searchObject.name) >= 0 : true));
+            }
+    
+            resolve(coasters);
+          }
+        });
+      }
+
+    
 
 };
   
