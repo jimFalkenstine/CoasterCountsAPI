@@ -1,7 +1,8 @@
 // Bring in the express server and create application
 let express = require('express');
-let coasterRepo = require('./repos/coasterRepo')
 let app = express();
+let coasterRepo = require('./repos/coasterRepo')
+let errorHelper = require('./helpers/errorHelpers');
 
 // Use the express Router object
 let router = express.Router();
@@ -170,8 +171,15 @@ router.patch('/:id', function (req, res, next) {
   });
 })
 
-// Configure router so all routes are prefixed with /api/
+// Configure router so all routes are prefixed with /api/v1
 app.use('/api/', router);
+
+// Configure exception logger
+app.use(errorHelper.logErrors);
+// Configure client error handler
+app.use(errorHelper.clientErrorHandler);
+// Configure catch-all exception middleware last
+app.use(errorHelper.errorHandler);
 
 // Create server to listen on port 5000
 var server = app.listen(5000, function () {
