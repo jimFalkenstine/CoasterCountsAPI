@@ -1,6 +1,6 @@
-# CoasterCountsAPI
+# CoasterCounts API
 
-Sample API with a selection of roller coasters
+Sample REST API with a selection of roller coasters
 
 All measurements based on the English system
 
