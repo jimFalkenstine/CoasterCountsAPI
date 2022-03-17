@@ -43,6 +43,7 @@ All measurements based on the English system
 | Property     | Data type |
 |--------------|-----------|
 | `id`         | Number    |
+| `name`       | String    |
 | `park`       | String    |
 | `type`       | String    |
 | `design`     | String    |
