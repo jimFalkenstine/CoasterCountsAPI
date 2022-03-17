@@ -3,12 +3,16 @@ let express = require('express');
 let app = express();
 let coasterRepo = require('./repos/coasterRepo')
 let errorHelper = require('./helpers/errorHelpers');
+let cors = require('cors');
 
 // Use the express Router object
 let router = express.Router();
 
 // Configure middleware to support JSON data parsing in request object
 app.use(express.json());
+
+// Enable CORS for all requests
+app.use(cors());
 
 
 // Create GET to return a list of all coasters
