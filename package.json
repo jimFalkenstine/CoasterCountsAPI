@@ -1,7 +1,7 @@
 {
   "name": "coastercountsapi",
   "version": "1.0.0",
-  "description": "REST APIs for CoasterCounts Web",
+  "description": " A REST API with a selection of roller coasters",
   "main": "index.js",
   "scripts": {
     "start": "nodemon index.js",
