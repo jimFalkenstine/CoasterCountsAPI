@@ -1,10 +1,17 @@
 # CoasterCounts API
 
-Sample REST API with a selection of roller coasters
+## Introduction
+This repository serves as my final project for the [Code Louisville](https://www.codelouisville.org) Spring 2022 Web Development Course 2.  The purpose of this code is to demonstrated the use of JavaScript and Git.
+
+## Project Desription
+
+**CoasterCounts API**
+
+Coaster Counts API is a sample REST API featuring a selection of roller coasters and thier stats.
 
 All measurements based on the English system
 
-## Endpoints
+**Endpoints**
 
 | HTTP Method | URI Path              | Description                                       |
 |-------------|-----------------------|---------------------------------------------------|
@@ -16,7 +23,7 @@ All measurements based on the English system
 | DELETE      | /:id                  | Deletes a single coaster                          |
 | PATCH       | /:id                  | Updates specific properties of a single coaster   |
 
-## JSON response format
+**JSON response format**
 
 ```json
 {
@@ -44,7 +51,7 @@ All measurements based on the English system
 }
 ```
 
-## JSON response data types
+**JSON response data types**
 | Property     | Data type |
 |--------------|-----------|
 | `id`         | Number    |
@@ -59,22 +66,22 @@ All measurements based on the English system
 | `otherNames` | Array     |
 | `country`    | String    |
 
-## Features
+## Technical Instructions
 
-### Feature #1
+ - Requires Visual Studio Code
+ - Requires Node.js
+ - Requires cors, express, and nodemon npm packages
+
+## Project Requirements
+
 Read and parse an external file (such as JSON or CSV) into your application and display some data from that in your app
 
-### Feature #2
 Retrieve data from an external API and display data in your app (such as with fetch() or with AJAX)
 
-### Feature #3
 Post to an external API and show that it has saved/persisted
 
-### Feature #4
 Create and use a function that accepts two or more values (parameters), calculates or determines a new value based on those inputs, and returns a new value
 
-### Feature #5
 Implement a log that records errors, invalid inputs, or other important events and writes them to a text file
 
-### Feature #6
 Create a web server with at least one route and connect to it from your application using ExpressJS

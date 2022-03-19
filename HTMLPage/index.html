@@ -9,39 +9,15 @@
   <h1>Coaster Sample</h1>
 
   <button onclick="renderCoasters();">Get All Coasters</button>
+  <button onclick="renderSingleCoaster();">Get A Single Coasters</button>
+  <form>
+    <label for="coasterName">Coaster Name:</label><br>
+    <input type="text" id="coasterName" name="coasterName"><br>
+    <input type="button" onclick="searchCoasters();"value="Search">
+  </form>
   <div class="container"></div>
 
-  <script>
-  async function getCoasters() {
-    let url = "http://localhost:5000/api/";
-    try {
-        let res = await fetch(url);
-        return await res.json();
-    } catch (error) {
-        console.log(error);
-    }
-  }
-
-async function renderCoasters() {
-    let response = await getCoasters();
-    let coasters = response.data;
-    console.log(coasters);
-    let html = '';
-    coasters.forEach(coaster => {
-        let htmlSegment = `<div class="coaster">
-                            <p>${coaster.name}</p>
-                            <p>${coaster.park}</p>
-                            <br>
-                        </div>`;
-
-        html += htmlSegment;
-    });
-
-    let container = document.querySelector('.container');
-    container.innerHTML = html;
-}
-
-  </script>
+ <script src="./scripts.js"></script>
 </body>
 
 </html>
