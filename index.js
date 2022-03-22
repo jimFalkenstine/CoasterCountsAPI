@@ -186,6 +186,7 @@ app.use(errorHelper.clientErrorHandler);
 app.use(errorHelper.errorHandler);
 
 // Create server to listen on port 5000
-var server = app.listen(5000, function () {
+const PORT = process.env.PORT || 5000;
+var server = app.listen(PORT, function () {
   console.log('Node server is running on http://localhost:5000..');
 });
