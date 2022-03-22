@@ -1482,7 +1482,7 @@
     },
     {
         "id": 91,
-        "name": "Harry Potter and the Escape from Gringotts ",
+        "name": "Harry Potter and the Escape from Gringotts",
         "park": "Universal Studios Florida",
         "type": "Steel",
         "design": "Sit Down",
@@ -1694,7 +1694,7 @@
         "year": 1981,
         "status": "Operating",
         "otherNames": [
-            "Wilde Beaste, Wild Beast"
+            "Wilde Beaste", "Wild Beast"
         ],
         "country": "Canada"
     },
