@@ -67,16 +67,18 @@ async function searchCoasters() {
 
 async function renderSearch() {
     let response = await searchCoasters();
-    let coaster = response.data;
-    console.log(coaster);
+    let coasters = response.data;
+    console.log(coasters);
     let html = '';
-    let htmlSegment = `<div class="coaster">
-                       <p>${coaster.name}</p>
-                      <p>${coaster.park}</p>
-                      <br>
-                      </div>`;
+    coasters.forEach(coaster => {
+        let htmlSegment = `<div class="coaster">
+                            <p>${coaster.name}</p>
+                            <p>${coaster.park}</p>
+                            <br>
+                        </div>`;
 
-    html += htmlSegment;
+        html += htmlSegment;
+    });
 
     let container = document.querySelector('.container');
     container.innerHTML = html;
