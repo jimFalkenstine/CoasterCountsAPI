@@ -8,16 +8,6 @@ async function getCoasters() {
     }
 }
 
-async function getSingleCoaster() {
-    let url = "http://localhost:5000/api/1";
-    try {
-        let res = await fetch(url);
-        return await res.json();
-    } catch (error) {
-        console.log(error);
-    }
-}
-
 async function renderCoasters() {
     let response = await getCoasters();
     let coasters = response.data;
@@ -35,6 +25,16 @@ async function renderCoasters() {
 
     let container = document.querySelector('.container');
     container.innerHTML = html;
+}
+
+async function getSingleCoaster() {
+    let url = "http://localhost:5000/api/1";
+    try {
+        let res = await fetch(url);
+        return await res.json();
+    } catch (error) {
+        console.log(error);
+    }
 }
 
 async function renderSingleCoaster() {
@@ -83,4 +83,3 @@ async function renderSearch() {
     let container = document.querySelector('.container');
     container.innerHTML = html;
 }
-
