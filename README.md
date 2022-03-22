@@ -74,14 +74,15 @@ All measurements based on the English system
 
 ## Project Requirements
 
-Read and parse an external file (such as JSON or CSV) into your application and display some data from that in your app
+**Read and parse an external file (such as JSON or CSV) into your application and display some data from that in your app**
 
-Retrieve data from an external API and display data in your app (such as with fetch() or with AJAX)
 
-Post to an external API and show that it has saved/persisted
+**Retrieve data from an external API and display data in your app (such as with fetch() or with AJAX)**
 
-Create and use a function that accepts two or more values (parameters), calculates or determines a new value based on those inputs, and returns a new value
+**Post to an external API and show that it has saved/persisted**
 
-Implement a log that records errors, invalid inputs, or other important events and writes them to a text file
+**Create and use a function that accepts two or more values (parameters), calculates or determines a new value based on those inputs, and returns a new value**
 
-Create a web server with at least one route and connect to it from your application using ExpressJS
+**Implement a log that records errors, invalid inputs, or other important events and writes them to a text file**
+
+**Create a web server with at least one route and connect to it from your application using ExpressJS**
