@@ -23,7 +23,7 @@ async function renderCoasters() {
         html += htmlSegment;
     });
 
-    let container = document.querySelector('.container');
+    let container = document.querySelector("#all-coasters");
     container.innerHTML = html;
 }
 
@@ -50,7 +50,7 @@ async function renderSingleCoaster() {
 
     html += htmlSegment;
 
-    let container = document.querySelector('.container');
+    let container = document.querySelector("#single-coaster");
     container.innerHTML = html;
 }
 
@@ -80,6 +80,6 @@ async function renderSearch() {
         html += htmlSegment;
     });
 
-    let container = document.querySelector('.container');
+    let container = document.querySelector("#search-coasters");
     container.innerHTML = html;
 }
