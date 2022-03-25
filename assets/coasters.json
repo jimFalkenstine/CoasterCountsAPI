@@ -1283,7 +1283,7 @@
         "status": "Operating",
         "otherNames": null,
         "country": "United States",
-        "imageURL" "https://www.holidayworld.com/wp-content/gallery/the-voyage/8-1-13-voyage-drop.jpg"
+        "imageURL": "https://www.holidayworld.com/wp-content/gallery/the-voyage/8-1-13-voyage-drop.jpg"
     },
     {
         "id": 74,
@@ -1766,7 +1766,7 @@
         "year": 2004,
         "status": "Operating",
         "otherNames": [
-            "Tomb Raider: The Ride",
+            "Tomb Raider: The Ride"
         ],
         "country": "Canada",
         "imageURL": "https://cdn-cloudfront.cfauthx.com/binaries/content/gallery/cw-en-ca/poi/rides/v2/time-warp-banner.jpg"
@@ -1986,7 +1986,7 @@
             "Flashback"
         ],
         "country": "United States",
-        "imageURL": "https://static.wikia.nocookie.net/sixflags/images/e/ed/Vampire_In_1998.jpg/"
+        "imageURL": "https://static.wikia.nocookie.net/sixflags/images/e/ed/Vampire_In_1998.jpg"
     },
     {
         "id": 114,
