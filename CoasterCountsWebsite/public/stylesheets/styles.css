@@ -1,0 +1,68 @@
+/* --------------------------
+  Main Styles
+--------------------------- */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Russo One', sans-serif;
+  background-color: #eeeeee;
+}
+
+img {
+  border-radius: 5px 5px 0 0;
+  max-width: 100%;
+}
+
+.coaster {
+background-color: #eeeeee;
+border-radius: 5px;
+}
+
+/* Style the navigation menu */
+.topnav {
+  overflow: hidden;
+  background-color: #3d88c2;
+  position: relative;
+}
+
+/* Hide the links inside the navigation menu (except for logo/home) */
+.topnav #myLinks {
+  display: none;
+}
+
+/* Style navigation menu links */
+.topnav a {
+  color: #f7e5ff;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+}
+
+.topnav #logo {
+  text-shadow: 2px 2px #000000;
+}
+
+/* Style the hamburger menu */
+.topnav a.icon {
+  background: #3d88c2;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+/* Add a grey background color on mouse-over */
+.topnav a:hover {
+  background-color: #f7e5ff;
+  color: #3d88c2;
+}
+
+/* Style the active link (or home/logo) */
+.active {
+  background-color: #3d88c2;
+  color: white;
+}
