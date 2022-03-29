@@ -12,7 +12,7 @@
         "inversions": 0,
         "year": 1991,
         "status": "Operating",
-        "otherNames": null,
+        "otherNames": "none",
         "country": "United States",
         "imageURL": "https://cdn-cloudfront.cfauthx.com/binaries/content/gallery/kings-island/poi/rides/banners/ki-adventureexpress-bannerv2.jpg"
     },
@@ -48,7 +48,7 @@
         "inversions": 7,
         "year": 2014,
         "status": "Operating",
-        "otherNames": null,
+        "otherNames": "none",
         "country": "United States",
         "imageURL": "https://cdn-cloudfront.cfauthx.com/binaries/content/gallery/kings-island/poi/rides/banners/ki-banshee-bannerv2.jpg"
     },
@@ -85,7 +85,7 @@
         "inversions": 0,
         "year": 1979,
         "status": "Operating",
-        "otherNames": null,
+        "otherNames": "none",
         "country": "United States",
         "imageURL": "https://cdn-cloudfront.cfauthx.com/binaries/content/gallery/kings-island/poi/rides/banners/ki-thebeast-bannerv2.jpg"
     },
@@ -102,7 +102,7 @@
         "inversions": 0,
         "year": 2009,
         "status": "Operating",
-        "otherNames": null,
+        "otherNames": "none",
         "country": "United States",
         "imageURL": "https://cdn-cloudfront.cfauthx.com/binaries/content/gallery/kings-island/poi/rides/banners/ki-diamondback-bannerv2.jpg"
     },
@@ -153,7 +153,7 @@
         "make": "E&F Miller Industries",
         "length": 199.3,
         "height": 8,
-        "speed": null,
+        "speed": "unknown",
         "inversions": 0,
         "year": 1992,
         "status": "Operating",
@@ -197,7 +197,7 @@
         "inversions": 0,
         "year": 2017,
         "status": "Operating",
-        "otherNames": null,
+        "otherNames": "none",
         "country": "United States",
         "imageURL": "https://cdn-cloudfront.cfauthx.com/binaries/content/gallery/kings-island/poi/rides/banners/ki-mystictimbers-bannerv4.jpg"
     },
@@ -214,7 +214,7 @@
         "inversions": 0,
         "year": 2020,
         "status": "Operating",
-        "otherNames": null,
+        "otherNames": "none",
         "country": "United States",
         "imageURL": "https://cdn-cloudfront.cfauthx.com/binaries/content/gallery/kings-island/poi/rides/banners/ki-orion-bannerv3.jpg"
     },
@@ -231,7 +231,7 @@
         "inversions": 0,
         "year": 1972,
         "status": "Operating",
-        "otherNames": null,
+        "otherNames": "none",
         "country": "United States",
         "imageURL": "https://cdn-cloudfront.cfauthx.com/binaries/content/gallery/kings-island/poi/rides/banners/ki-racer-bannerv2.jpg"
     },
@@ -289,7 +289,7 @@
         "inversions": 1,
         "year": 1984,
         "status": "Removed",
-        "otherNames": null,
+        "otherNames": "none",
         "country": "United States",
         "imageURL": "https://static.wikia.nocookie.net/visitkingsisland/images/9/97/King_Cobra_In_1991.jpg"
 
@@ -307,7 +307,7 @@
         "inversions": 0,
         "year": 2000,
         "status": "Removed",
-        "otherNames": null,
+        "otherNames": "none",
         "country": "United States",
         "imageURL": "https://themeparkcrazy.com/wp-content/uploads/2018/08/photos.medleyphoto.2144636.jpg"
     },
@@ -324,7 +324,7 @@
         "inversions": 6,
         "year": 1987,
         "status": "Removed",
-        "otherNames": null,
+        "otherNames": "none",
         "country": "United States",
         "imageURL": "https://cdn-cloudfront.cfauthx.com/binaries/content/gallery/kings-island/blogs/v2/banner-vortex-1.jpg"
     },
@@ -341,7 +341,7 @@
         "inversions": 0,
         "year": 1964,
         "status": "Operating",
-        "otherNames": null,
+        "otherNames": "none",
         "country": "United States",
         "imageURL": "https://cdn-cloudfront.cfauthx.com/binaries/content/gallery/cp-en-us/banners/cp-bluestreak-bannerv2.jpg"
 
@@ -359,7 +359,7 @@
         "inversions": 0,
         "year": 1969,
         "status": "Operating",
-        "otherNames": null,
+        "otherNames": "none",
         "country": "United States",
         "imageURL": "https://cdn-cloudfront.cfauthx.com/binaries/content/gallery/cp-en-us/banners/cp-cedarcreekmineride-banner.jpg"
     },
@@ -376,7 +376,7 @@
         "inversions": 3,
         "year": 1976,
         "status": "Operating",
-        "otherNames": null,
+        "otherNames": "none",
         "country": "United States",
         "imageURL": "https://cdn-cloudfront.cfauthx.com/binaries/content/gallery/cp-en-us/banners/cp-corkscrew-bannerv3.jpg"
     },
@@ -393,7 +393,7 @@
         "inversions": 6,
         "year": 2013,
         "status": "Operating",
-        "otherNames": null,
+        "otherNames": "none",
         "country": "United States",
         "imageURL": "https://cdn-cloudfront.cfauthx.com/binaries/content/gallery/cp-en-us/banners/cp-gatekeeper-bannerv2.jpg"
     },
@@ -410,7 +410,7 @@
         "inversions": 0,
         "year": 1978,
         "status": "Operating",
-        "otherNames": null,
+        "otherNames": "none",
         "country": "United States",
         "imageURL": "https://cdn-cloudfront.cfauthx.com/binaries/content/gallery/cp-en-us/banners/cp-gemini-bannerv2.jpg"
     },
@@ -427,7 +427,7 @@
         "inversions": 0,
         "year": 1987,
         "status": "Operating",
-        "otherNames": null,
+        "otherNames": "none",
         "country": "United States",
         "imageURL": "https://cdn-cloudfront.cfauthx.com/binaries/content/gallery/cp-en-us/banners/cp-irondragon-bannerv2.jpg"
     },
@@ -444,7 +444,7 @@
         "inversions": 0,
         "year": 1989,
         "status": "Operating",
-        "otherNames": null,
+        "otherNames": "none",
         "country": "United States",
         "imageURL": "https://cdn-cloudfront.cfauthx.com/binaries/content/gallery/cp-en-us/banners/cp-magnum-bannerv2.jpg"
     },
@@ -461,7 +461,7 @@
         "inversions": 2,
         "year": 2007,
         "status": "Operating",
-        "otherNames": null,
+        "otherNames": "none",
         "country": "United States",
         "imageURL": "https://cdn-cloudfront.cfauthx.com/binaries/content/gallery/cp-en-us/banners/cp-maverick-bannerv2.jpg"
     },
@@ -478,7 +478,7 @@
         "inversions": 0,
         "year": 2000,
         "status": "Operating",
-        "otherNames": null,
+        "otherNames": "none",
         "country": "United States",
         "imageURL": "https://cdn-cloudfront.cfauthx.com/binaries/content/gallery/cp-en-us/banners/cp-millennium-force-bannerv2.jpg"
     },
@@ -495,7 +495,7 @@
         "inversions": 6,
         "year": 1994,
         "status": "Operating",
-        "otherNames": null,
+        "otherNames": "none",
         "country": "United States",
         "imageURL": "https://cdn-cloudfront.cfauthx.com/binaries/content/gallery/cp-en-us/banners/cp-raptor-bannerv2.jpg"
     },
@@ -531,7 +531,7 @@
         "inversions": 4,
         "year": 2018,
         "status": "Operating",
-        "otherNames": null,
+        "otherNames": "none",
         "country": "United States",
         "imageURL": "https://cdn-cloudfront.cfauthx.com/binaries/content/gallery/cp-en-us/banners/cp-steelvengeance-bannerv2.jpg"
     },
@@ -548,7 +548,7 @@
         "inversions": 0,
         "year": 2003,
         "status": "Operating",
-        "otherNames": null,
+        "otherNames": "none",
         "country": "United States",
         "imageURL": "https://cdn-cloudfront.cfauthx.com/binaries/content/gallery/cp-en-us/banners/cp-topthrilldragster-bannerv2.jpg"
     },
@@ -565,7 +565,7 @@
         "inversions": 3,
         "year": 2016,
         "status": "Operating",
-        "otherNames": null,
+        "otherNames": "none",
         "country": "United States",
         "imageURL": "https://cdn-cloudfront.cfauthx.com/binaries/content/gallery/cp-en-us/banners/cp-valravn-bannerv2.jpg"
     },
@@ -582,7 +582,7 @@
         "inversions": 0,
         "year": 2002,
         "status": "Operating",
-        "otherNames": null,
+        "otherNames": "none",
         "country": "United States",
         "imageURL": "https://cdn-cloudfront.cfauthx.com/binaries/content/gallery/cp-en-us/banners/cp-wickedtwister-bannerv2.jpg"
     },
@@ -599,7 +599,7 @@
         "inversions": 0,
         "year": 1999,
         "status": "Operating",
-        "otherNames": null,
+        "otherNames": "none",
         "country": "United States",
         "imageURL": "https://cdn-cloudfront.cfauthx.com/binaries/content/gallery/cp-en-us/banners/cp-woodstockexpress-bannerv2.jpg"
     },
@@ -616,7 +616,7 @@
         "inversions": 0,
         "year": 1991,
         "status": "Removed",
-        "otherNames": null,
+        "otherNames": "none",
         "country": "United States",
         "imageURL": "https://www.toledoblade.com/image/2016/08/01/1140x_a10-7_cTC/b3mean-2.jpg"
     },
@@ -633,7 +633,7 @@
         "inversions": 4,
         "year": 1991,
         "status": "Operating",
-        "otherNames": null,
+        "otherNames": "none",
         "country": "United States",
         "imageURL": "https://cdn-cloudfront.cfauthx.com/binaries/content/gallery/kd-en-us/poi/v2/anaconda-banner.jpg"
     },
@@ -663,8 +663,8 @@
         "type": "Steel",
         "design": "Bobsled",
         "make": "Mack Rides GmbH & Co KG",
-        "length": null,
-        "height": null,
+        "length": "unknown",
+        "height": "unknown",
         "speed": 41,
         "inversions": 0,
         "year": 1988,
@@ -707,7 +707,7 @@
         "inversions": 5,
         "year": 2008,
         "status": "Operating",
-        "otherNames": null,
+        "otherNames": "none",
         "country": "United States",
         "imageURL": "https://cdn-cloudfront.cfauthx.com/binaries/content/gallery/kd-en-us/poi/v2/dominator-banner.jpg"
     },
@@ -720,11 +720,11 @@
         "make": "Philadelphia Toboggan Coasters, Inc.",
         "length": 3150,
         "height": 87,
-        "speed": null,
+        "speed": "none",
         "inversions": 0,
         "year": 1982,
         "status": "Operating",
-        "otherNames": null,
+        "otherNames": "none",
         "country": "United States",
         "imageURL": "https://cdn-cloudfront.cfauthx.com/binaries/content/gallery/kd-en-us/poi/v2/grizzly-banner.jpg"
     },
@@ -741,7 +741,7 @@
         "inversions": 0,
         "year": 2010,
         "status": "Operating",
-        "otherNames": null,
+        "otherNames": "none",
         "country": "United States",
         "imageURL": "https://cdn-cloudfront.cfauthx.com/binaries/content/gallery/kd-en-us/poi/v2/intimidator-305-banner.jpg"
     },
@@ -777,7 +777,7 @@
         "inversions": 4,
         "year": 1998,
         "status": "Removed",
-        "otherNames": null,
+        "otherNames": "none",
         "country": "United States",
         "imageURL": "https://www.coaster101.com/wp-content/uploads/2019/01/Volcano-scaled.jpg"
     },
@@ -813,7 +813,7 @@
         "inversions": 4,
         "year": 1980,
         "status": "Operating",
-        "otherNames": null,
+        "otherNames": "none",
         "country": "United States",
         "imageURL": "https://cdn-cloudfront.cfauthx.com/binaries/content/gallery/ca-en-us/poi/rides/v2/carolina-cyclone-banner.jpg"
     },
@@ -825,12 +825,12 @@
         "design": "Sit Down",
         "make": "Arrow Dynamics",
         "length": 2397,
-        "height": null,
-        "speed": null,
+        "height": "unknown",
+        "speed": "unknown",
         "inversions": 0,
         "year": 1973,
         "status": "Operating",
-        "otherNames": null,
+        "otherNames": "none",
         "country": "United States",
         "imageURL": "https://cdn-cloudfront.cfauthx.com/binaries/content/gallery/ca-en-us/poi/rides/v2/goldrusher-banner.jpg"
     },
@@ -867,7 +867,7 @@
         "inversions": 0,
         "year": 2015,
         "status": "Operating",
-        "otherNames": null,
+        "otherNames": "none",
         "country": "United States",
         "imageURL": "https://cdn-cloudfront.cfauthx.com/binaries/content/gallery/ca-en-us/poi/rides/v2/fury-banner.jpg"
     },
@@ -884,7 +884,7 @@
         "inversions": 0,
         "year": 1994,
         "status": "Operating",
-        "otherNames": null,
+        "otherNames": "none",
         "country": "United States",
         "imageURL": "https://cdn-cloudfront.cfauthx.com/binaries/content/gallery/ca-en-us/poi/rides/v2/hurler-banner.jpg"
     },
@@ -901,7 +901,7 @@
         "inversions": 0,
         "year": 2010,
         "status": "Operating",
-        "otherNames": null,
+        "otherNames": "none",
         "country": "United States",
         "imageURL": "https://cdn-cloudfront.cfauthx.com/binaries/content/gallery/ca-en-us/poi/rides/v2/intimidator-banner.jpg"
     },
@@ -938,7 +938,7 @@
         "inversions": 0,
         "year": 2002,
         "status": "Operating",
-        "otherNames": null,
+        "otherNames": "none",
         "country": "United States",
         "imageURL": "https://cdn-cloudfront.cfauthx.com/binaries/content/gallery/ca-en-us/poi/rides/v2/ricochet-banner.jpg"
     },
@@ -955,7 +955,7 @@
         "inversions": 2,
         "year": 1992,
         "status": "Operating",
-        "otherNames": null,
+        "otherNames": "none",
         "country": "United States",
         "imageURL": "https://cdn-cloudfront.cfauthx.com/binaries/content/gallery/ca-en-us/poi/rides/v2/ca-vortex-banner.jpg"
     },
@@ -972,7 +972,7 @@
         "inversions": 6,
         "year": 1997,
         "status": "Operating",
-        "otherNames": null,
+        "otherNames": "none",
         "country": "United States",
         "imageURL": "https://upload.wikimedia.org/wikipedia/commons/0/03/Alpengeist_%28Busch_Gardens_Europe%29_02.JPG"
     },
@@ -989,7 +989,7 @@
         "inversions": 0,
         "year": 1999,
         "status": "Operating",
-        "otherNames": null,
+        "otherNames": "none",
         "country": "United States",
         "imageURL": "https://live.staticflickr.com/65535/48033028421_9c4488d0c8_b.jpg"
     },
@@ -1006,7 +1006,7 @@
         "inversions": 2,
         "year": 2007,
         "status": "Operating",
-        "otherNames": null,
+        "otherNames": "none",
         "country": "United States",
         "imageURL": "https://upload.wikimedia.org/wikipedia/commons/2/22/Griffon_First_Drop.jpg"
     },
@@ -1019,11 +1019,11 @@
         "make": "Zierer",
         "length": 600,
         "height": 24,
-        "speed": null,
+        "speed": "unknown",
         "inversions": 0,
         "year": 2009,
         "status": "Operating",
-        "otherNames": null,
+        "otherNames": "none",
         "country": "United States",
         "imageURL": "https://upload.wikimedia.org/wikipedia/commons/c/c9/Grover%27s_Alpine_Express_1.jpg"
     },
@@ -1040,7 +1040,7 @@
         "inversions": 2,
         "year": 1978,
         "status": "Operating",
-        "otherNames": null,
+        "otherNames": "none",
         "country": "United States",
         "imageURL": "https://upload.wikimedia.org/wikipedia/commons/f/fb/BGE-Loch_Ness_Monster.jpg"
     },
@@ -1057,7 +1057,7 @@
         "inversions": 1,
         "year": 2015,
         "status": "Operating",
-        "otherNames": null,
+        "otherNames": "none",
         "country": "United States",
         "imageURL": "https://upload.wikimedia.org/wikipedia/commons/0/08/Tempesto_1.jpg"
     },
@@ -1069,12 +1069,12 @@
         "design": "Sit Down",
         "make": "Zierer",
         "length": 2835,
-        "height": null,
+        "height": "unknown",
         "speed": 53,
         "inversions": 0,
         "year": 2012,
         "status": "Operating",
-        "otherNames": null,
+        "otherNames": "none",
         "country": "United States",
         "imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Verbolten%2C_Busch_Gardens_Williamsburg.jpg/1024px-Verbolten%2C_Busch_Gardens_Williamsburg.jpg"
     },
@@ -1085,13 +1085,13 @@
         "type": "Steel",
         "design": "Sit Down",
         "make": "Zierer",
-        "length": null,
-        "height": null,
-        "speed": null,
+        "length": "unknown",
+        "height": "unknown",
+        "speed": "unknown",
         "inversions": 0,
         "year": 2010,
         "status": "Operating",
-        "otherNames": null,
+        "otherNames": "none",
         "country": "United States",
         "imageURL": "https://coasterpedia.net/w/images/9/99/Air_Grover_train_on_helix.jpg"
     },
@@ -1108,7 +1108,7 @@
         "inversions": 1,
         "year": 2011,
         "status": "Operating",
-        "otherNames": null,
+        "otherNames": "none",
         "country": "United States",
         "imageURL": "https://coasterpedia.net/w/images/2/21/Cheetah_Hunt_overview.jpg"
     },
@@ -1125,7 +1125,7 @@
         "inversions": 0,
         "year": 2016,
         "status": "Operating",
-        "otherNames": null,
+        "otherNames": "none",
         "country": "United States",
         "imageURL": "https://coasterpedia.net/w/images/0/0c/Cobra%27s_Curse_%28Busch_Gardens_Tampa%29_2019_01.jpg"
     },
@@ -1142,7 +1142,7 @@
         "inversions": 7,
         "year": 1993,
         "status": "Operating",
-        "otherNames": null,
+        "otherNames": "none",
         "country": "United States",
         "imageURL": "https://coasterpedia.net/w/images/7/71/Kumba_%28Busch_Gardens_Tampa%29_2007_01.jpg"
     },
@@ -1159,7 +1159,7 @@
         "inversions": 7,
         "year": 1996,
         "status": "Operating",
-        "otherNames": null,
+        "otherNames": "none",
         "country": "United States",
         "imageURL": "https://coasterpedia.net/w/images/5/50/Montu_%28Busch_Gardens_Tampa%29_2009_01.jpg"
     },
@@ -1195,7 +1195,7 @@
         "inversions": 1,
         "year": 1980,
         "status": "Operating",
-        "otherNames": null,
+        "otherNames": "none",
         "country": "United States",
         "imageURL": "https://coasterpedia.net/w/images/5/5c/Scorpion_loop.jpg"
 
@@ -1213,7 +1213,7 @@
         "inversions": 1,
         "year": 2005,
         "status": "Operating",
-        "otherNames": null,
+        "otherNames": "none",
         "country": "United States",
         "imageURL": "https://coasterpedia.net/w/images/b/b4/SheiKra.jpg"
     },
@@ -1230,7 +1230,7 @@
         "inversions": 1,
         "year": 2019,
         "status": "Operating",
-        "otherNames": null,
+        "otherNames": "none",
         "country": "United States",
         "imageURL": "https://coasterpedia.net/w/images/6/6a/Tigris_%28Busch_Gardens_Tampa%29_2019_01.jpg"
     },
@@ -1247,7 +1247,7 @@
         "inversions": 0,
         "year": 2000,
         "status": "Operating",
-        "otherNames": null,
+        "otherNames": "none",
         "country": "United States",
         "imageURL": "https://www.holidayworld.com/wp-content/gallery/the-legend/Legend-Going-Over-First-Drop.jpg"
     },
@@ -1264,7 +1264,7 @@
         "inversions": 0,
         "year": 1995,
         "status": "Operating",
-        "otherNames": null,
+        "otherNames": "none",
         "country": "United States",
         "imageURL": "https://www.holidayworld.com/wp-content/gallery/the-raven/Raven-with-Legend.png"
     },
@@ -1281,7 +1281,7 @@
         "inversions": 0,
         "year": 2006,
         "status": "Operating",
-        "otherNames": null,
+        "otherNames": "none",
         "country": "United States",
         "imageURL": "https://www.holidayworld.com/wp-content/gallery/the-voyage/8-1-13-voyage-drop.jpg"
     },
@@ -1298,7 +1298,7 @@
         "inversions": 0,
         "year": 1978,
         "status": "Operating",
-        "otherNames": null,
+        "otherNames": "none",
         "country": "United States",
         "imageURL": "https://coasterpedia.net/w/images/3/31/Blazing_Fury_%28Dollywood%29_2009_01.jpg"
     },
@@ -1315,7 +1315,7 @@
         "inversions": 0,
         "year": 2014,
         "status": "Operating",
-        "otherNames": null,
+        "otherNames": "none",
         "country": "United States",
         "imageURL": "https://coasterpedia.net/w/images/7/74/FireChaser_Express_%28Dollywood%29_2016_01.jpg"
     },
@@ -1332,7 +1332,7 @@
         "inversions": 0,
         "year": 2016,
         "status": "Operating",
-        "otherNames": null,
+        "otherNames": "none",
         "country": "United States",
         "imageURL": "https://coasterpedia.net/w/images/9/90/Lightning_Rod_Entrance.jpg"
     },
@@ -1349,7 +1349,7 @@
         "inversions": 2,
         "year": 2007,
         "status": "Operating",
-        "otherNames": null,
+        "otherNames": "none",
         "country": "United States",
         "imageURL": "https://coasterpedia.net/w/images/a/a2/Mystery_Mine_%28Dollywood%29_2008_03.jpg"
     },
@@ -1366,7 +1366,7 @@
         "inversions": 3,
         "year": 1999,
         "status": "Operating",
-        "otherNames": null,
+        "otherNames": "none",
         "country": "United States",
         "imageURL": "https://coasterpedia.net/w/images/2/2d/Tennessee_Tornado_%28Dollywood%29_2011_02.jpg"
     },
@@ -1383,7 +1383,7 @@
         "inversions": 0,
         "year": 2004,
         "status": "Operating",
-        "otherNames": null,
+        "otherNames": "none",
         "country": "United States",
         "imageURL": "https://coasterpedia.net/w/images/5/58/Thunderhead_%28Dollywood%29_2004_01.jpg"
     },
@@ -1400,7 +1400,7 @@
         "inversions": 4,
         "year": 2012,
         "status": "Operating",
-        "otherNames": null,
+        "otherNames": "none",
         "country": "United States",
         "imageURL": "https://coasterpedia.net/w/images/9/93/Wild_Eagle_lift_hill.jpg"
     },
@@ -1417,7 +1417,7 @@
         "inversions": 0,
         "year": 1996,
         "status": "Operating",
-        "otherNames": null,
+        "otherNames": "none",
         "country": "United States",
         "imageURL": "https://coasterpedia.net/w/images/6/6c/Barnstormer_%28Magic_Kingdom%29_2012_01.jpg"
     },
@@ -1429,12 +1429,12 @@
         "design": "Sit Down",
         "make": "unknown",
         "length": 2780,
-        "height": null,
+        "height": "unknown",
         "speed": 36,
         "inversions": 0,
         "year": 1980,
         "status": "Operating",
-        "otherNames": null,
+        "otherNames": "none",
         "country": "United States",
         "imageURL": "https://coasterpedia.net/w/images/6/60/Big_Thunder_Mountain_Railroad_%28Magic_Kingdom%29_2008_01.jpg"
     },
@@ -1451,7 +1451,7 @@
         "inversions": 0,
         "year": 2014,
         "status": "Operating",
-        "otherNames": null,
+        "otherNames": "none",
         "country": "United States",
         "imageURL": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/630/354/90/media/disneyparksjapan-prod/disneyparksjapan_v0001/1/media/wdw/attractions/7-dwarfs-mine-train-00.jpg"
     },
@@ -1468,7 +1468,7 @@
         "inversions": 0,
         "year": 1975,
         "status": "Operating",
-        "otherNames": null,
+        "otherNames": "none",
         "country": "United States",
         "imageURL": "https://allears.net/wp-content/uploads/2019/11/Space-Mountain-WDW.jpg"
     },
@@ -1485,7 +1485,7 @@
         "inversions": 3,
         "year": 1999,
         "status": "Operating",
-        "otherNames": null,
+        "otherNames": "none",
         "country": "United States",
         "imageURL": "https://coasterpedia.net/w/images/f/fd/Rock%27n%27RollercoasterParisExterior.jpeg"
     },
@@ -1496,13 +1496,13 @@
         "type": "Steel",
         "design": "Sit Down",
         "make": "Mack Rides GmbH & Co KG",
-        "length": null,
-        "height": null,
-        "speed": null,
+        "length": "unknown",
+        "height": "unknown",
+        "speed": "unknown",
         "inversions": 0,
         "year": 2018,
         "status": "Operating",
-        "otherNames": null,
+        "otherNames": "none",
         "country": "United States",
         "imageURL": "https://coasterpedia.net/w/images/a/a8/Slinky_Dog_Dash_%28Disney%27s_Hollywood_Studios%29_2018_11.jpg"
     },
@@ -1519,7 +1519,7 @@
         "inversions": 0,
         "year": 2006,
         "status": "Operating",
-        "otherNames": null,
+        "otherNames": "none",
         "country": "United States",
         "imageURL": "https://coasterpedia.net/w/images/4/47/Expedition_Everest_%28Disney%27s_Animal_Kingdom%29_2007_02.jpg"
     },
@@ -1536,7 +1536,7 @@
         "inversions": 0,
         "year": 2002,
         "status": "Removed",
-        "otherNames": null,
+        "otherNames": "none",
         "country": "United States",
         "imageURL": "https://coasterpedia.net/w/images/1/1c/Primeval_Whirl_%28Disney%27s_Animal_Kingdom%29_2008_01.jpg"
     },
@@ -1553,7 +1553,7 @@
         "inversions": 7,
         "year": 1999,
         "status": "Operating",
-        "otherNames": null,
+        "otherNames": "none",
         "country": "United States",
         "imageURL": "https://coasterpedia.net/w/images/3/31/Incredible_Hulk_Coaster_%28Universal%27s_Islands_of_Adventure%29_2020_01.jpg"
     },
@@ -1583,13 +1583,13 @@
         "type": "Steel",
         "design": "Sit Down",
         "make": "Intamin Amusement Rides",
-        "length": null,
-        "height": null,
-        "speed": null,
+        "length": "unknown",
+        "height": "unknown",
+        "speed": "unknown",
         "inversions": 0,
         "year": 2014,
         "status": "Operating",
-        "otherNames": null,
+        "otherNames": "none",
         "country": "United States",
         "imageURL": "https://coasterpedia.net/w/images/a/a3/Gringottsfacade.jpg"
     },
@@ -1606,7 +1606,7 @@
         "inversions": 0,
         "year": 2009,
         "status": "Operating",
-        "otherNames": null,
+        "otherNames": "none",
         "country": "United States",
         "imageURL": "https://coasterpedia.net/w/images/a/ab/Hollywood_Rip_Ride_Rockit_non-inverted_loop.jpg"
     },
@@ -1623,7 +1623,7 @@
         "inversions": 0,
         "year": 2004,
         "status": "Operating",
-        "otherNames": null,
+        "otherNames": "none",
         "country": "United States",
         "imageURL": "https://coasterpedia.net/w/images/b/be/Revenge_of_the_Mummy_%28Universal_Studios_Florida%29_2009_01.jpg"
     },
@@ -1640,7 +1640,7 @@
         "inversions": 3,
         "year": 1987,
         "status": "Operating",
-        "otherNames": null,
+        "otherNames": "none",
         "country": "Canada",
         "imageURL": "https://cdn-cloudfront.cfauthx.com/binaries/content/gallery/cw-en-ca/poi/rides/v2/thebat-banner.jpg"
     },
@@ -1657,7 +1657,7 @@
         "inversions": 0,
         "year": 2008,
         "status": "Operating",
-        "otherNames": null,
+        "otherNames": "none",
         "country": "Canada",
         "imageURL": "https://cdn-cloudfront.cfauthx.com/binaries/content/gallery/cw-en-ca/poi/rides/v2/behemoth-banner.jpg"
     },
@@ -1712,7 +1712,7 @@
         "inversions": 0,
         "year": 2012,
         "status": "Operating",
-        "otherNames": null,
+        "otherNames": "none",
         "country": "Canada",
         "imageURL": "https://cdn-cloudfront.cfauthx.com/binaries/content/gallery/cw-en-ca/poi/rides/v2/leviathan-banner.jpg"
     },
@@ -1729,7 +1729,7 @@
         "inversions": 0,
         "year": 1981,
         "status": "Operating",
-        "otherNames": null,
+        "otherNames": "none",
         "country": "Canada",
         "imageURL": "https://cdn-cloudfront.cfauthx.com/binaries/content/gallery/cw-en-ca/poi/rides/v2/minebuster-banner.jpg"
     },
@@ -1784,7 +1784,7 @@
         "inversions": 0,
         "year": 1991,
         "status": "Operating",
-        "otherNames": null,
+        "otherNames": "none",
         "country": "Canada",
         "imageURL": "https://cdn-cloudfront.cfauthx.com/binaries/content/gallery/cw-en-ca/poi/rides/v2/vortex-banner.jpg"
     },
@@ -1817,11 +1817,11 @@
         "make": "ART Engineering GmbH",
         "length": 1000,
         "height": 60,
-        "speed": null,
+        "speed": "unknown",
         "inversions": 0,
         "year": 2014,
         "status": "Operating",
-        "otherNames": null,
+        "otherNames": "none",
         "country": "Canada",
         "imageURL": "https://cdn-cloudfront.cfauthx.com/binaries/content/gallery/cw-en-ca/poi/rides/v2/wonder-mountains-guardian-banner.jpg"
     },
@@ -1853,8 +1853,8 @@
         "design": "Sit Down",
         "make": "Intamin Amusement Rides",
         "length": 1968.5,
-        "height": null,
-        "speed": null,
+        "height": "unknown",
+        "speed": "unknown",
         "inversions": 1,
         "year": 1993,
         "status": "Operating",
@@ -1877,7 +1877,7 @@
         "inversions": 0,
         "year": 2019,
         "status": "Operating",
-        "otherNames": null,
+        "otherNames": "none",
         "country": "United States",
         "imageURL": "https://upload.wikimedia.org/wikipedia/commons/9/91/Kentucky_Flyer_-_Spring_2019.png"
     },
@@ -1894,7 +1894,7 @@
         "inversions": 0,
         "year": 2014,
         "status": "Operating",
-        "otherNames": null,
+        "otherNames": "none",
         "country": "United States",
         "imageURL": "https://coasterpedia.net/w/images/d/db/Lightning_Run_%28Kentucky_Kingdom%29_2016_01.jpg"
     },
@@ -1911,7 +1911,7 @@
         "inversions": 0,
         "year": 1994,
         "status": "Operating",
-        "otherNames": null,
+        "otherNames": "none",
         "country": "United States",
         "imageURL": "https://coasterpedia.net/w/images/c/c3/Roller_Skater_%28Kentucky_Kingdom%29_2004_01.jpg"
     },
@@ -1928,7 +1928,7 @@
         "inversions": 2,
         "year": 2016,
         "status": "Operating",
-        "otherNames": null,
+        "otherNames": "none",
         "country": "United States",
         "imageURL": "https://coasterpedia.net/w/images/b/ba/Storm_Chaser_%28Kentucky_Kingdom%29_2016_01.jpg"
     },
@@ -1964,7 +1964,7 @@
         "inversions": 0,
         "year": 1990,
         "status": "Operating",
-        "otherNames": null,
+        "otherNames": "none",
         "country": "United States",
         "imageURL": "https://coasterpedia.net/w/images/f/f5/Thunder_Run_%28Kentucky_Kingdom%29_2009_01.jpg"
     },
@@ -1995,13 +1995,13 @@
         "type": "Wood",
         "design": "Sit Down",
         "make": "National Amusement Device Company",
-        "length": null,
-        "height": null,
-        "speed": null,
-        "inversions": null,
+        "length": "unknown",
+        "height": "unknown",
+        "speed": "unknown",
+        "inversions": "unknown",
         "year": 1958,
         "status": "Operating",
-        "otherNames": null,
+        "otherNames": "none",
         "country": "United States",
         "imageURL": "https://cdn.ymaws.com/www.aceonline.org/resource/resmgr/pages/landmarks/cpdipper-1.jpg"
     },
