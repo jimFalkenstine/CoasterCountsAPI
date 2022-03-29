@@ -13,15 +13,15 @@ All measurements based on the English system
 
 **Endpoints**
 
-| HTTP Method | URI Path              | Description                                       |
-|-------------|-----------------------|---------------------------------------------------|
-| GET         | /                     | Returns a list of all coasters                    |
-| GET         | /:id                  | Returns a single coaster                          |
-| GET         | /search?id=n&name=str | Search for coasters by 'id' and/or 'name'         | 
-| POST        | /                     | Adds a new coaster to list                        |                              |
-| PUT         | /:id                  | Updates all of the properties of a single coaster |
-| DELETE      | /:id                  | Deletes a single coaster                          |
-| PATCH       | /:id                  | Updates specific properties of a single coaster   |
+| HTTP Method | URI Path                  | Description                                       |
+|-------------|---------------------------|---------------------------------------------------|
+| GET         | /api/                     | Returns a list of all coasters                    |
+| GET         | /api/:id                  | Returns a single coaster                          |
+| GET         | /api/search?id=n&name=str | Search for coasters by 'id' and/or 'name'         | 
+| POST        | /api/                     | Adds a new coaster to list                        |                              |
+| PUT         | /api/:id                  | Updates all of the properties of a single coaster |
+| DELETE      | /api/:id                  | Deletes a single coaster                          |
+| PATCH       | /api/:id                  | Updates specific properties of a single coaster   |
 
 **JSON response format**
 
@@ -46,7 +46,8 @@ All measurements based on the English system
         "otherNames": [
             "Italian Job: Stunt Track"
         ],
-        "country": "United States"
+        "country": "United States",
+        "imageURL": "https://cdn-cloudfront.cfauthx.com/binaries/content/gallery/kings-island/poi/rides/banners/ki-backlotstuntcoaster-bannerv2.jpg"
     }
 }
 ```
