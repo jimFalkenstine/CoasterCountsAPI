@@ -3,7 +3,7 @@
 ## Introduction
 This repository serves as my final project for the [Code Louisville](https://www.codelouisville.org) Spring 2022 Web Development Course 2.  The purpose of this code is to demonstrated the use of JavaScript and Git.
 
-## Project Desription
+## Project Description
 
 **CoasterCounts API**
 
