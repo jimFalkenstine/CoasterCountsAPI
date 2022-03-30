@@ -66,12 +66,27 @@ All measurements based on the English system
 | `status`     | String    |
 | `otherNames` | Array     |
 | `country`    | String    |
+| `imageURL`   | String    |
 
 ## Technical Instructions
 
  - Requires Visual Studio Code
  - Requires Node.js
- - Requires cors, express, and nodemon npm packages
+ - Requires nodemon, express, annd cors npm packages
+ - Requires the Handlebars template view engine
+
+## User Instructions
+
+1. Clone/download repository to your local machine.
+2. Open CoasterCountsAPI folder in Visual Studio Code.
+3. Open a new split terminal with Powershell in Visual Studio Code.
+4. In the left terminal, run npm install in the CoasterCountsAPI directory.
+5. In the right terminal, change the directory to CoasterCountsWebsite and run npm install there.
+6. Run npm start in the left directory to start the API on http://localhost:5000.
+7. Run npm start in the right directory to start the Website on http://localhost:3000.
+8. Navigate your preferred web browser to http://localhost:3000 to view the CoasterCounts Website.
+
+-You can also access the CoasterCounts API via Heroku https://coaster-counts-api.herokuapp.com/api/
 
 ## Project Requirements
 
@@ -81,13 +96,7 @@ On lines 6 - 15 of coasterRepo.js, the get method of the coasterRepo object read
 
 **Retrieve data from an external API and display data in your app (such as with fetch() or with AJAX)**
 
-The async function getCoasters() in the scripts.js folder uses fetch() to request all of the coaster data.
-
-**Post to an external API and show that it has saved/persisted**
-
-**Create and use a function that accepts two or more values (parameters), calculates or determines a new value based on those inputs, and returns a new value**
-
-The get method of the coaserRepo object accepts a resolve and reject parameter.  It returns a Promise object that is resolved with json parsed data.
+The async function getSingleCoaster() in the scripts.js file of the CoasterCounts website uses fetch() to retrieve coaster data.
 
 **Implement a log that records errors, invalid inputs, or other important events and writes them to a text file**
 
@@ -95,6 +104,4 @@ The logRepo object in logRepo.js has a write method that logs exceptions to a lo
 
 **Create a web server with at least one route and connect to it from your application using ExpressJS**
 
-The Express server is created in index.js.  The server has three get routes as well as post, put, delete, and patch routes.
-
-
+The Express server for the CoasterCounts API is created in index.js.  The server has three get routes as well as post, put, delete, and patch routes.
