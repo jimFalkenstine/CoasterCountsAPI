@@ -8,8 +8,22 @@
 body {
   margin: 0;
   font-family: 'Russo One', sans-serif;
-  background-color: #eeeeee;
+  background-color: #3d88c2;
+  /* background-color: #eeeeee;  */
 }
+
+main {
+  padding: 0 5px 0 5px;
+}
+
+h1 {
+  color: #f7e5ff;
+  text-shadow: 2px 2px #000000;
+}
+
+/* h2 {
+  text-shadow: 2px 2px #f7e5ff;
+} */
 
 img {
   border-radius: 5px 5px 0 0;
@@ -19,12 +33,20 @@ img {
 .coaster {
 background-color: #eeeeee;
 border-radius: 5px;
+padding-bottom: 5px;
+}
+
+.info {
+padding-left: 5px;
+}
+.main-footer {
+padding: 5px;
 }
 
 /* Style the navigation menu */
 .topnav {
   overflow: hidden;
-  background-color: #3d88c2;
+  background-color:#f7e5ff;
   position: relative;
 }
 
@@ -35,20 +57,16 @@ border-radius: 5px;
 
 /* Style navigation menu links */
 .topnav a {
-  color: #f7e5ff;
+  color: #000000;
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
   display: block;
 }
 
-.topnav #logo {
-  text-shadow: 2px 2px #000000;
-}
-
 /* Style the hamburger menu */
 .topnav a.icon {
-  background: #3d88c2;
+  background: #f7e5ff;
   display: block;
   position: absolute;
   right: 0;
@@ -57,12 +75,12 @@ border-radius: 5px;
 
 /* Add a grey background color on mouse-over */
 .topnav a:hover {
-  background-color: #f7e5ff;
-  color: #3d88c2;
+  background-color: #3d88c2;
+  color: #f7e5ff;
 }
 
 /* Style the active link (or home/logo) */
 .active {
-  background-color: #3d88c2;
-  color: white;
+  background-color: #f7e5ff;
+  color: #3d88c2;
 }

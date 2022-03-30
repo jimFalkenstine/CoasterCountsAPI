@@ -8,39 +8,37 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="/stylesheets/styles.css">
+    <link rel="stylesheet" href="./stylesheets/styles.css">
 </head>
 <body>
     <!-- Top Navigation Menu -->
 <div class="topnav">
-    <a href="#home" class="active" id="logo">CoasterCounts</a>
+    <a href="#home" class="active" id="logo" onclick="renderSingleCoaster()">CoasterCounts</a>
     <!-- Navigation links (hidden by default) -->
     <div id="myLinks">
-      <a href="#about">About</a>
-      <a href="#all-coasters">All Coasters</a>
-      <a href="#contact">Contact</a>
+      <a href="#about" onclick="renderAbout()">About</a>
+      <a href="#kings-island-coasters" onclick="renderKingsIslandCoasters()">Kings Island Coasters</a>
+      <a href="#cedar-point-coasters" onclick="renderCedarPointCoasters()">Cedar Point Coasters</a>
+      <a href="#kings-dominion-coasters" onclick="renderKingsDominionCoasters()">Kings Dominion Coasters</a>
+      <a href="#carowinds-coasters" onclick="renderCarowindsCoasters()">Carowinds Coasters</a>
+      <a href="#canadas-wonderland-coasters" onclick="renderCanadasWonderlandCoasters()">Canada's Wonderland Coasters</a>
+      <a href="#contact" onclick="renderContact()">Contact</a>
     </div>
     <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
     <a href="javascript:void(0);" class="icon" onclick="hamburgerMenu()">
       <i class="fa fa-bars"></i>
     </a>
 </div>
-
-<h1>CoasterCounts</h1>
-<h2>Featured Coaster</h2>
-<div class="container"></div>
-
+<main>
+  <div class="container"></div>
+</main>
 <div class="main-footer">
-    <a href=#top>Back to Top</a>
-    <hr>
-    <footer>
+  <a href=#top>Back to Top</a>
+  <hr>
+  <footer>
     <p>&copy;2022 Jim Falkenstine</p>
   </footer>
 </div>
-  <script src="/javascripts/scripts.js"></script>
+  <script src="./javascripts/scripts.js"></script>
 </body>
-
 </html>
-
-
-
