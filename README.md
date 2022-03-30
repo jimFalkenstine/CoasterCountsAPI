@@ -82,9 +82,9 @@ All measurements based on the English system
 3. Open a new split terminal with Powershell in Visual Studio Code.
 4. In the left terminal, run npm install in the CoasterCountsAPI directory.
 5. In the right terminal, change the directory to CoasterCountsWebsite and run npm install there.
-6. Run npm start in the left directory to start the API on http://localhost:5000.
-7. Run npm start in the right directory to start the Website on http://localhost:3000.
-8. Navigate your preferred web browser to http://localhost:3000 to view the CoasterCounts Website.
+6. Run npm start in the left terminal/CoasterCountsAPI directory to start the API on http://localhost:5000.
+7. Run npm start in the right terminal/CoasterCountsWebsite directory to start the Website on http://localhost:3000.
+8. Open your preferred web browser and navigate it to http://localhost:3000 to view the CoasterCounts Website.
 
 -You can also access the CoasterCounts API via Heroku https://coaster-counts-api.herokuapp.com/api/
 
@@ -92,15 +92,15 @@ All measurements based on the English system
 
 **Read and parse an external file (such as JSON or CSV) into your application and display some data from that in your app**
 
-On lines 6 - 15 of coasterRepo.js, the get method of the coasterRepo object reads and parses the coasters.json file.   
+On lines 6 - 15 of coasterRepo.js, the get method of the coasterRepo object reads and parses the coasters.json file that is located in the assets folder.   
 
 **Retrieve data from an external API and display data in your app (such as with fetch() or with AJAX)**
 
-The async function getSingleCoaster() in the scripts.js file of the CoasterCounts website uses fetch() to retrieve coaster data.
+The async function getSingleCoaster() in the scripts.js file in the javascripts folder of the CoasterCountsWebsite folder uses fetch() to retrieves coaster data from the CoasterCounts API located at localhost:5000/api/.
 
 **Implement a log that records errors, invalid inputs, or other important events and writes them to a text file**
 
-The logRepo object in logRepo.js has a write method that logs exceptions to a log.txt file.
+The logRepo object in logRepo.js has a write method that logs exceptions to a log.txt file.  For example, if you change the name of coasters.json file on line 3 of the coasterRepo.js file, an Internal Server error should be recored in the log.txt file in the logs folder.
 
 **Create a web server with at least one route and connect to it from your application using ExpressJS**
 
