@@ -55,7 +55,7 @@ router.get('/:id', function (req, res, next) {
       res.status(200).json({
         "status": 200,
         "statusText": "OK",
-        "message": "All coasters retrieved.",
+        "message": "Single coaster retrieved.",
         "data": data
       });
     }
