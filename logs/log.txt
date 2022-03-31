@@ -1,0 +1,4 @@
+********************************************************************************
+Date/Time: 3/30/2022
+Exception Info: {"status":500,"statusText":"Internal Server Error","message":"ENOENT: no such file or directory, open 'C:\\Users\\Jim\\Desktop\\CoasterCountsAPI\\assets\\coaster2.json'","error":{"errno":-4058,"call":"open","code":"INTERNAL_SERVER_ERROR","message":"ENOENT: no such file or directory, open 'C:\\Users\\Jim\\Desktop\\CoasterCountsAPI\\assets\\coaster2.json'"},"requestInfo":{"hostname":"localhost","path":"/api/1"}}
+********************************************************************************

@@ -100,7 +100,7 @@ The async function getSingleCoaster() in the scripts.js file in the javascripts 
 
 **Implement a log that records errors, invalid inputs, or other important events and writes them to a text file**
 
-The logRepo object in logRepo.js has a write method that logs exceptions to a log.txt file.  For example, if you change the name of coasters.json file on line 3 of the coasterRepo.js file, an Internal Server error should be recored in the log.txt file in the logs folder.
+The logRepo object in logRepo.js has a write method that logs exceptions to a log.txt file.  For example, change the name of coasters.json file on line 3 of the coasterRepo.js file. Then try to load the CoasterCountsWebsite on localhost:3000.  An Internal Server error should be recored in the log.txt file in the logs folder.
 
 **Create a web server with at least one route and connect to it from your application using ExpressJS**
 
