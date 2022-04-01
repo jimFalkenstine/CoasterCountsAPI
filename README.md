@@ -88,7 +88,7 @@ All measurements based on the English system
 
 -You can access the CoasterCounts API via Heroku https://coaster-counts-api.herokuapp.com/api/
 
--You can also access the CoasterCounts Website at https://jimfalkenstine.github.io/frontend2/index.html
+-You can also access the CoasterCounts Website at https://jimfalkenstine.github.io/frontend2/coaster-counts.html
 
 ## Project Requirements
 
