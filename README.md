@@ -86,7 +86,9 @@ All measurements based on the English system
 7. Run npm start in the right terminal/CoasterCountsWebsite directory to start the Website on http://localhost:3000.
 8. Open your preferred web browser and navigate it to http://localhost:3000 to view the CoasterCounts Website.
 
--You can also access the CoasterCounts API via Heroku https://coaster-counts-api.herokuapp.com/api/
+-You can access the CoasterCounts API via Heroku https://coaster-counts-api.herokuapp.com/api/
+
+-You can also access the CoasterCounts Website at https://jimfalkenstine.github.io/frontend2/index.html
 
 ## Project Requirements
 

@@ -20,7 +20,7 @@ async function getSingleCoaster() {
 }
 
 async function getAllCoasters() {
-  let url = "http://localhost:5000/api";
+  let url = "http://localhost:5000/api/";
   try {
       let res = await fetch(url);
       return await res.json();
@@ -32,9 +32,8 @@ async function getAllCoasters() {
 async function renderSingleCoaster() {
     let response = await getSingleCoaster();
     let coaster = response.data;
-    console.log(coaster);
-    let html = "<h1>Featured Coaster</h1>";
-    let htmlSegment = `<div class="coaster">
+    let html = "";
+    let htmlSegment = `<div class="coaster" id="featured-coaster">
                        <img src=${coaster.imageURL} alt="${coaster.name}">
                        <div class="info">
                        <h2>${coaster.name}</h2>
@@ -55,6 +54,8 @@ async function renderSingleCoaster() {
 
     html += htmlSegment;
 
+    let contentHeader = document.querySelector(".content-header");
+    contentHeader.innerHTML= "Featured Coaster";
     let container = document.querySelector(".container");
     container.innerHTML = html;
 }
@@ -62,26 +63,30 @@ async function renderSingleCoaster() {
 async function renderKingsIslandCoasters() {
   let response = await getAllCoasters();
   let coasters = response.data;
-  let html = '<h1>Kings Island Coasters</h1>'
+  let html = "";
   for (let i = 0; i < 18; i ++) {
     let coaster = coasters[i];
     let htmlSegment = `<div class="coaster">
-                         <img src=${coaster.imageURL} alt="${coaster.name}">
-                         <h2>${coaster.name}</h2>
-                         <p><b>Type:</b> ${coaster.type}</p>
-                         <p><b>Design:</b> ${coaster.design}</p>
-                         <p><b>Make:</b> ${coaster.make}</p>
-                         <p><b>Length:</b> ${coaster.length} ft</p>
-                         <p><b>Height:</b> ${coaster.height} ft</p>
-                         <p><b>Speed:</b> ${coaster.speed} mph</p>
-                         <p><b>Inversions:</b> ${coaster.inversions}</p>
-                         <p><b>Year:</b> ${coaster.year}</p>
-                         <p><b>Status:</b> ${coaster.status}</p>
-                         <p><b>Other Names:</b> ${coaster.otherNames}</p>
-                         <p><b>Country:</b> ${coaster.country}</p>
-                         </div>`;
+                       <img src=${coaster.imageURL} alt="${coaster.name}">
+                       <div class="info">
+                       <h2>${coaster.name}</h2>
+                       <p><b>Type:</b> ${coaster.type}</p>
+                       <p><b>Design:</b> ${coaster.design}</p>
+                       <p><b>Make:</b> ${coaster.make}</p>
+                       <p><b>Length:</b> ${coaster.length} ft</p>
+                       <p><b>Height:</b> ${coaster.height} ft</p>
+                       <p><b>Speed:</b> ${coaster.speed} mph</p>
+                       <p><b>Inversions:</b> ${coaster.inversions}</p>
+                       <p><b>Year:</b> ${coaster.year}</p>
+                       <p><b>Status:</b> ${coaster.status}</p>
+                       <p><b>Other Names:</b> ${coaster.otherNames}</p>
+                       <p><b>Country:</b> ${coaster.country}</p>
+                       </div>
+                       </div>`;
     html += htmlSegment;
   }
+  let contentHeader = document.querySelector(".content-header");
+  contentHeader.innerHTML= "Kings Island Coasters";
   let container = document.querySelector(".container");
   container.innerHTML = html;
 }
@@ -89,11 +94,12 @@ async function renderKingsIslandCoasters() {
 async function renderCedarPointCoasters() {
   let response = await getAllCoasters();
   let coasters = response.data;
-  let html = '<h1>Cedar Point Coasters</h1>'
+  let html = "";
   for (let i = 18; i < 35; i ++) {
     let coaster = coasters[i];
     let htmlSegment = `<div class="coaster">
                          <img src=${coaster.imageURL} alt="${coaster.name}">
+                         <div class="info">
                          <h2>${coaster.name}</h2>
                          <p><b>Type:</b> ${coaster.type}</p>
                          <p><b>Design:</b> ${coaster.design}</p>
@@ -106,9 +112,12 @@ async function renderCedarPointCoasters() {
                          <p><b>Status:</b> ${coaster.status}</p>
                          <p><b>Other Names:</b> ${coaster.otherNames}</p>
                          <p><b>Country:</b> ${coaster.country}</p>
+                         </div>
                          </div>`;
     html += htmlSegment;
   }
+  let contentHeader = document.querySelector(".content-header");
+  contentHeader.innerHTML= "Cedar Point Coasters";
   let container = document.querySelector(".container");
   container.innerHTML = html;
 }
@@ -116,11 +125,12 @@ async function renderCedarPointCoasters() {
 async function renderKingsDominionCoasters() {
   let response = await getAllCoasters();
   let coasters = response.data;
-  let html = '<h1>Kings Dominion Coasters</h1>'
+  let html = "";
   for (let i = 35; i < 44; i ++) {
     let coaster = coasters[i];
     let htmlSegment = `<div class="coaster">
                          <img src=${coaster.imageURL} alt="${coaster.name}">
+                         <div class="info">
                          <h2>${coaster.name}</h2>
                          <p><b>Type:</b> ${coaster.type}</p>
                          <p><b>Design:</b> ${coaster.design}</p>
@@ -133,9 +143,12 @@ async function renderKingsDominionCoasters() {
                          <p><b>Status:</b> ${coaster.status}</p>
                          <p><b>Other Names:</b> ${coaster.otherNames}</p>
                          <p><b>Country:</b> ${coaster.country}</p>
+                         </div>
                          </div>`;
     html += htmlSegment;
   }
+  let contentHeader = document.querySelector(".content-header");
+  contentHeader.innerHTML= "Kings Dominon Coasters";
   let container = document.querySelector(".container");
   container.innerHTML = html;
 }
@@ -143,11 +156,12 @@ async function renderKingsDominionCoasters() {
 async function renderCarowindsCoasters() {
   let response = await getAllCoasters();
   let coasters = response.data;
-  let html = '<h1>Carowinds Coasters</h1>'
+  let html = "";
   for (let i = 44; i < 54; i ++) {
     let coaster = coasters[i];
     let htmlSegment = `<div class="coaster">
                          <img src=${coaster.imageURL} alt="${coaster.name}">
+                         <div class="info">
                          <h2>${coaster.name}</h2>
                          <p><b>Type:</b> ${coaster.type}</p>
                          <p><b>Design:</b> ${coaster.design}</p>
@@ -160,9 +174,12 @@ async function renderCarowindsCoasters() {
                          <p><b>Status:</b> ${coaster.status}</p>
                          <p><b>Other Names:</b> ${coaster.otherNames}</p>
                          <p><b>Country:</b> ${coaster.country}</p>
+                         </div>
                          </div>`;
     html += htmlSegment;
   }
+  let contentHeader = document.querySelector(".content-header");
+  contentHeader.innerHTML= "Carowinds Coasters";
   let container = document.querySelector(".container");
   container.innerHTML = html;
 }
@@ -170,11 +187,12 @@ async function renderCarowindsCoasters() {
 async function renderCanadasWonderlandCoasters() {
   let response = await getAllCoasters();
   let coasters = response.data;
-  let html = "<h1>Canada\'s Wonderland Coasters</h1>"
+  let html = "";
   for (let i = 93; i < 104; i ++) {
     let coaster = coasters[i];
     let htmlSegment = `<div class="coaster">
                          <img src=${coaster.imageURL} alt="${coaster.name}">
+                         <div class="info">
                          <h2>${coaster.name}</h2>
                          <p><b>Type:</b> ${coaster.type}</p>
                          <p><b>Design:</b> ${coaster.design}</p>
@@ -187,24 +205,36 @@ async function renderCanadasWonderlandCoasters() {
                          <p><b>Status:</b> ${coaster.status}</p>
                          <p><b>Other Names:</b> ${coaster.otherNames}</p>
                          <p><b>Country:</b> ${coaster.country}</p>
+                         </div>
                          </div>`;
     html += htmlSegment;
   }
+  let contentHeader = document.querySelector(".content-header");
+  contentHeader.innerHTML= "Canada's Wonderland Coasters";
   let container = document.querySelector(".container");
   container.innerHTML = html;
 }
 
 function renderAbout() {
-  let html = `<h2>About</h2>
-              <p>Welcome to the CoasterCounts Web App.  Here you can browse roller coaster stats from Kings Island, Cedar Point, Kings Dominion and Carowinds.
-              </p>`;
+  let html = `<div id=about>
+              <h2>About</h2>
+              <p>Welcome to the CoasterCounts Web App.  Here you can browse roller coaster stats from Kings Island, Cedar Point, Kings Dominion and Carowinds.</p>
+              </div>`;
+              
+  let contentHeader = document.querySelector(".content-header");
+  contentHeader.innerHTML= "";
   let container = document.querySelector(".container");
   container.innerHTML = html;
 }
 
 function renderContact() {
-  let html = `<h2>Contact</h2>
-              <p><strong>Email:</strong> <a href="mailto:jim.falkenstine@gmail.com">jim.falkenstine@gmail.com</a></p>`;
+  let html = `<div id="contact">
+              <h2>Contact</h2>
+              <p><strong>Email:</strong> <a href="mailto:jim.falkenstine@gmail.com">jim.falkenstine@gmail.com</a></p>
+              </div>`;
+
+  let contentHeader = document.querySelector(".content-header");
+  contentHeader.innerHTML= "";
   let container = document.querySelector(".container");
   container.innerHTML = html;
 }

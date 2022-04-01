@@ -9,11 +9,14 @@ body {
   margin: 0;
   font-family: 'Russo One', sans-serif;
   background-color: #3d88c2;
-  /* background-color: #eeeeee;  */
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
 }
 
 main {
   padding: 0 5px 0 5px;
+  flex: 1;
 }
 
 h1 {
@@ -21,26 +24,44 @@ h1 {
   text-shadow: 2px 2px #000000;
 }
 
-/* h2 {
-  text-shadow: 2px 2px #f7e5ff;
-} */
-
 img {
   border-radius: 5px 5px 0 0;
   max-width: 100%;
 }
 
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 .coaster {
-background-color: #eeeeee;
-border-radius: 5px;
-padding-bottom: 5px;
+  background-color: #eeeeee;
+  border-radius: 5px;
+  padding-bottom: 2px;
+  margin: 5px;
+  max-width: 394px;
 }
 
 .info {
-padding-left: 5px;
+  padding-left: 5px;
 }
+
 .main-footer {
-padding: 5px;
+  padding: 5px;
+}
+
+#about, #contact {
+  background-color: #eeeeee;
+  border-radius: 5px;
+  padding: 0 5px 5px 5px;
+  margin-top: 5px;
+}
+
+#featured-coaster {
+  max-width: 100%;
+  margin: auto;
 }
 
 /* Style the navigation menu */
@@ -83,4 +104,22 @@ padding: 5px;
 .active {
   background-color: #f7e5ff;
   color: #3d88c2;
+}
+
+/* --------------------------
+  Media Queries
+--------------------------- */
+
+@media (min-width: 818px) {
+  .container {
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    align-items: stretch;
+    /* align-content: space-around; */
+  }
+
+  #featured-coaster {
+    max-width: 100%;
+    margin: auto;
+  }
 }
